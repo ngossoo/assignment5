@@ -3,6 +3,11 @@ body {
     background-color: floralwhite;
 
     font-family: avenir;
+    
+    background-image: linear-gradient(floralwhite, rgba(255, 250, 240, 0.8)), url(../images/background1.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 }
 
 .red-span {
