@@ -3,7 +3,7 @@ body {
     background-color: floralwhite;
 
     font-family: avenir;
-    
+
     background-image: linear-gradient(floralwhite, rgba(255, 250, 240, 0.8)), url(../images/background1.jpg);
     background-size: cover;
     background-position: center;
@@ -47,6 +47,15 @@ header nav ul {
 header nav li {
     list-style-type: none;
     padding: inherit;
+}
+
+a {
+
+    transition: background-color .3s, color .3s;
+}
+
+a:hover {
+    color: #6f806f;
 }
 
 .title {
@@ -100,7 +109,7 @@ textarea,
 select {
     flex: 1;
     margin: 0 1em;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 
